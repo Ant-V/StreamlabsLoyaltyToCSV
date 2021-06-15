@@ -10,9 +10,11 @@ Go to your dashboard and notice how many pages of people show up in your loyalty
 Let's say the number is *5*. Note that down!
 
 Now for every page you need to get it's data.
+
 Thankfully Streamlabs has an API for that, so just visit the following page:
 
 https://streamlabs.com/api/v5/cloudbot/loyalty?page=1
+
 And save the data as a `.json` file.
 
 Then go to https://streamlabs.com/api/v5/cloudbot/loyalty?page=2 and continue the process until you reach your max page.
@@ -33,6 +35,12 @@ And save each with a different name ie. 1.json, 2.json etc. in the `files/` dire
 
 ***It really doesn't matter what you name them, as long as they have a different name***
 
-Then just run the `loyaltyToCSV.php` file and a new `loyalty.csv` should appear
+## Part 2: Converting the data
 
-That is all, enjoy!
+Make sure your `.json` files are in the `files/` directory.
+
+Then run the `loyaltyToCSV.php` file. 
+
+A new `loyalty.csv` should appear
+
+# That is all, enjoy!
