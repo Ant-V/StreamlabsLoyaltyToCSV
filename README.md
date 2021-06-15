@@ -18,10 +18,15 @@ And save the data as a `.json` file.
 Then go to https://streamlabs.com/api/v5/cloudbot/loyalty?page=2 and continue the process until you reach your max page.
 
 For our example, with the 5 pages, we would open:
+
 https://streamlabs.com/api/v5/cloudbot/loyalty?page=1
+
 https://streamlabs.com/api/v5/cloudbot/loyalty?page=2
+
 https://streamlabs.com/api/v5/cloudbot/loyalty?page=3
+
 https://streamlabs.com/api/v5/cloudbot/loyalty?page=4
+
 https://streamlabs.com/api/v5/cloudbot/loyalty?page=5
 
 And save each with a different name ie. 1.json, 2.json etc. in the `files/` directory.
