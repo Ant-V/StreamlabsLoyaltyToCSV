@@ -39,7 +39,7 @@ And save each with a different name ie. 1.json, 2.json etc. in the `files/` dire
 
 Make sure your `.json` files are in the `files/` directory.
 
-Then run the `loyaltyToCSV.php` file. 
+Then `cd` into the directory and run `php loyaltyToCSV.php`. 
 
 A new `loyalty.csv` should appear
 
